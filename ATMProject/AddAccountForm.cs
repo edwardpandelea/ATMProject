@@ -48,7 +48,7 @@ namespace ATMProject
             if (firstName.Length < 3)
             {
                 errorProvider2.SetError(textBox_FirstName, "The Fist Name should be at least 3 charaters long!");
-
+                error = true;
             }
 
             
@@ -56,7 +56,7 @@ namespace ATMProject
             if (lastName.Length < 3)
             {
                 errorProvider3.SetError(textBox_LastName, "The Fist Name should be at least 3 charaters long!");
-
+                error = true;
             }
 
 
@@ -66,7 +66,7 @@ namespace ATMProject
             if (!isNumeric2 || money == "" || money.Length == 0)
             {
                 errorProvider4.SetError(textBox_MoneyAmount, "The money amount should be at least 1!");
-
+                error = true;
             }
 
          
@@ -76,6 +76,7 @@ namespace ATMProject
             if (!isNumeric || pin == "" || pin.Length != 4)
             {
                 errorProvider5.SetError(textBox_PIN, "The PIN must be 4 digits long and numeric!");
+                error = true;
             }
 
             if (!error)
