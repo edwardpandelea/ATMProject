@@ -1,7 +1,6 @@
 ### Proiect ATM &nbsp; <img src="https://github.com/user-attachments/assets/9a7a46ee-395f-4596-9c24-70c22840b6ed" width="32">
 ### Romanian
-Acest proiect reprezintă un ATM virtual dezvoltat acum doi ani, folosind cunoșt
-ințele acumulate în timpul studiilor universitare. Aplicația este construită cu ajutorul tehnologiei Microsoft .NET WinForms și utilizează SQLite3 pentru gestionarea datelor.
+Acest proiect reprezintă un ATM virtual. Aplicația este construită cu ajutorul tehnologiei Microsoft .NET WinForms și utilizează SQLite3 pentru gestionarea datelor.
 
 ### Tehnologii Utilizate
 * Platformă: Microsoft .NET WinForms
@@ -16,7 +15,7 @@ ințele acumulate în timpul studiilor universitare. Aplicația este construită
 
 De asemenea, baza de date este generată automat la fiecare rulare a aplicației, asigurând astfel funcționalitatea corectă și actualizată a sistemului.
 ### English
-This project is a virtual ATM developed two years ago, leveraging the knowledge gained during my university studies. The application is built using Microsoft .NET WinForms and utilizes SQLite3 for data management.
+This project is a virtual ATM. The application is built using Microsoft .NET WinForms and utilizes SQLite3 for data management.
 
 ### Technologies Used
 * Platform: Microsoft .NET WinForms
